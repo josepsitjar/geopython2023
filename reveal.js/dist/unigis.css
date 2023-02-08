@@ -39,3 +39,30 @@ a:link {
     text-align: left;
     padding: 5px !important;
  }
+
+ .list-color{
+     padding-left:20px;
+     background-color: #e96449;
+ }
+
+ ul.no-bullets {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+ul.no-bullets li{
+    margin-top: 5px;
+}
+
+.background-text-programme {
+    background-color: #e96449;
+    height: 190px;
+    padding-top: 0px;
+}
+
+.box {
+    background-color: white;
+    color: #e96449;
+    padding: 20px;
+}

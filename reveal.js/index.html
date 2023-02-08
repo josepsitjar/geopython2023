@@ -40,7 +40,7 @@
 					<br>
 					<iframe src="https://www.google.com/maps/d/embed?mid=1RfOIRHBJFFO1NiDjbl7rVjOEVaE&hl=en&ehbc=2E312F" width="1240" height="480"></iframe>
 				</section>
-				<section data-background="examples/assets/network.jpg" data-transition="convex">
+				<section data-background="examples/assets/network.jpg" data-transition="zoom">
 					<div class="background-text"><h2>UNIGIS Worldwide</h2></div>
 					<br>
 					<div class="unigis-font-color">
@@ -50,7 +50,7 @@
 						We have over <b>4000</b> UNIGIS alumni in more than <b>40</b> countries. 
 					</div>
 				</section>
-				<section data-background="examples/assets/girona.jpg" data-transition="convex">
+				<section data-background="examples/assets/eixample.jpg" data-transition="zoom">
 					<div class="background-text"><h2>UNIGIS Girona</h2></div>
 					<br>
 					<a href="https://www.unigis.es" class="button">www.unigis.es</a>
@@ -69,21 +69,35 @@
 						</div>
 					</div>
 				</section>
-				<section data-background="examples/assets/girona.jpg" data-transition="convex">
-					<div class="background-text"><h2>UNIGIS Girona</h2><p>Course features</p></div>
+				<section data-background="examples/assets/eixample.jpg" data-transition="convex">
+					<div style="color:white"><h2 style="color:white">UNIGIS Girona</h2><p>Course features</p></div>
+						<ul class="no-bullets">
+							<li class="animate__fadeInLeft list-color"><span>&#10003;</span> <span style="padding-left: 20px;">100% remote</span></li>
+							<li class="animate__fadeInLeft list-color"><span>&#10003;</span><span style="padding-left: 20px;">Courses start and end at specific dates</span></li>
+							<li class="animate__fadeInLeft list-color"><span>&#10003;</span><span style="padding-left: 20px;">Content updated annually</span></li>
+							<li class="animate__fadeInLeft list-color"><span>&#10003;</span><span style="padding-left: 20px;">Assignment oriented learning</span></li>
+							<li class="animate__fadeInLeft list-color"><span>&#10003;</span><span style="padding-left: 20px;">Resources oriented to assignments</span></li>
+							<li class="animate__fadeInLeft list-color"><span>&#10003;</span><span style="padding-left: 20px;">Case studies, webinars, exercises,...</span></li>
+							<li class="animate__fadeInLeft list-color"><span>&#10003;</span><span style="padding-left: 20px;">Online materials & tutoring</span></li>
+						</ul>  
+				</section>
+				<section data-background="examples/assets/maps.jpg" data-transition="convex">
+					<div class="background-text"><h2>UNIGIS Girona</h2><p>Deprecated programmes</p></div>
 					<br><br>
-					<section data-transition="zoom">
-						<h3>Default</h3>
-					</section>
-					<section data-transition="concave">
-						<h3>data-transition: concave</h3>
-					</section>
-					<section data-transition="convex-in fade-out">
-						<h3>data-transition: convex-in fade-out</h3>
-					</section>
-					<section>
-						<h3>Default</h3>
-					</section>
+					<div>
+						
+						<div class="fragment">
+							<div class="row">
+								<div class="padded background-text-programme">
+									<p>MSc</p>
+									<span class="box">GIS</span> +
+									<span class="box">Analysis / Programming</span> +
+									<span class="box">Thesis</span> 
+								</div>
+							</div>
+						</div>
+					</div>
+					
 				</section>
 			</div>
 		</div>
@@ -92,6 +106,8 @@
 		<script src="plugin/notes/notes.js"></script>
 		<script src="plugin/markdown/markdown.js"></script>
 		<script src="plugin/highlight/highlight.js"></script>
+		<!-- animate: https://github.com/Martinomagnifico/reveal.js-appearance -->
+		<script src="node_modules/reveal.js-appearance/plugin/appearance/appearance.js"></script>
 		<script>
 			// More info about initialization & config:
 			// - https://revealjs.com/initialization/
@@ -100,7 +116,7 @@
 				hash: true,
 				backgroundTransition: 'convex',
 				// Learn about plugins: https://revealjs.com/plugins/
-				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes, Appearance ]
 			});
 		</script>
 	</body>

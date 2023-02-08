@@ -1,0 +1,41 @@
+.background-text{
+    background-color: #e96449;
+}
+
+.unigis-font-color{
+    color: #e96449;
+    background-color: white;
+    opacity: 0.8;
+}
+
+.button{
+    background-color: #e96449;
+    color: white;
+    padding: 10px;
+}
+
+.button-icon{
+    background-color: #e96449;
+    color: white;
+    margin-left:-9px;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-left: solid;
+}
+
+a:link {
+    color: white;
+}
+
+.reveal a {
+    color: white;
+}
+
+.twocolumn {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    text-align: left;
+    padding: 5px !important;
+ }
